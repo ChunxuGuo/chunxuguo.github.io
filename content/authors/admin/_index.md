@@ -48,7 +48,7 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-# skills:
+skills:
 #   - name: Technical
 #     items:
 #       - name: Python
@@ -120,6 +120,6 @@ social:
 highlight_name: true
 ---
 
-Chuxu Guo is a FPGA Application Engineer at AMD University Program and a Master Student of Electronic Engineering at ShanghaiTech University. His research interests include FPGA hardware accelerator and software-hardware co-design. He is currently working on the project of defect detection in the field of semiconductor manufacturing. He is also interested in the field of pointcloud accelerator, lightweight encryption IP and reconfigurable computing.
+Chuxu Guo is an FPGA application engineer intern at AMD University Program and a master student of electronic engineering at ShanghaiTech University. His research interests include FPGA hardware accelerator and software-hardware co-design. He is currently working on the project of defect detection in the field of semiconductor manufacturing. He is also interested in the field of pointcloud accelerator, lightweight encryption IP and reconfigurable computing.
 
 {style="text-align: justify;"}
