@@ -62,27 +62,32 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: FPGA Application Engineer Intern
+          company: AMD
+          company_url: 'www.amd.com'
+          # company_logo: 
+          location: Shanghai
+          date_start: '2022-02-14'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Developing open-source FPGA remote access framework
+              * Developing PYNQ-based FPGA accelerator reference design
+              * Delivering FPGA training to students
+  
+        - title: FPGA Application Engineer Intern
+          company: Xilinx
+          company_url: 'www.xilinx.com'
+          # company_logo: org-x
+          location: Shanghai
+          date_start: '2021-08-01'
+          date_end: '2022-2-14'
+          description: |2-
+              Responsibilities include:
+
+              * Supporting academic users in PYNQ-based FPGA accelerator development
+              * Developing customized composable pipeline with DFX for video processing
     design:
       columns: '2'
   - block: accomplishments
