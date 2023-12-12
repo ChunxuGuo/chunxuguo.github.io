@@ -106,7 +106,7 @@ sections:
         # - certificate_url: https://www.coursera.org
           date_end: ''
           date_start: '2023-10-25'
-          description: 'In this honorable paper, we proposed a solution by using Zynq device with PYNQ open-source framework, JupyterLab, and NFS board management to build a remote FPGA application design system in a light way. The system supports the RTL ,HLS design flow, provides an interactive GUI for new users to learn and practice.'
+          description: ''
           # icon: coursera
           # organization: Coursera
           # organization_url: https://www.coursera.org
