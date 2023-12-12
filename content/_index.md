@@ -82,7 +82,7 @@ sections:
           # company_logo: org-x
           location: Shanghai
           date_start: '2021-08-01'
-          date_end: '2022-2-14'
+          date_end: '2022-02-14'
           description: |2-
               Responsibilities include:
 
