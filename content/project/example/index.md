@@ -1,9 +1,13 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Energy-efficient and Fast KNN Search Accelerator
+summary: Existing KNN accelerators perform inefficiently in reducing search regions and transferring point cloud maps.
+To solve this issue, we propose a fast and energy-efficient KNN accelerator with two techniques.
+First, we propose a novel search technique (NSVS, nearest-sub-voxel-selection) to reduce the redundant search region.
+Second, we design an adaptive data transfer technique to efficiently transfer point cloud maps with different data reuse ratio from external memory to accelerator via multi large-bit-width ports. 
+Experimental results show that our proposed KNN search accelerator achieves 9.1 times faster than state-of-the-art KNN implementations on FPGA.
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+  - FPGA
+date: '2023-10-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -12,11 +16,11 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+links: ''
+  # - icon: twitter
+  #   icon_pack: fab
+  #   name: Follow
+  #   url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -27,7 +31,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+# slides: example
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
