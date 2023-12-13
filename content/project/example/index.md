@@ -1,6 +1,6 @@
 ---
 title: Energy-efficient and Fast KNN Search Accelerator
-summary: Existing KNN accelerators perform inefficiently in reducing search regions and transferring point cloud maps. To solve this issue, we propose a fast and energy-efficient KNN accelerator with two techniques. First, we propose a novel search technique (NSVS, nearest-sub-voxel-selection) to reduce the redundant search region. Second, we design an adaptive data transfer technique to efficiently transfer point cloud maps with different data reuse ratio from external memory to accelerator via multi large-bit-width ports. Experimental results show that our proposed KNN search accelerator achieves 9.1 times faster than state-of-the-art KNN implementations on FPGA.
+summary: Existing KNN accelerators perform inefficiently in reducing search regions and transferring point cloud maps. To solve this issue, we propose a fast and energy-efficient KNN accelerator with two techniques. First, we propose a novel search technique (NSVS, nearest-sub-voxel-selection) to reduce the redundant search region. Second, we design an adaptive data transfer technique to efficiently transfer point cloud maps with different data reuse ratio from external memory to accelerator via multi large-bit-width ports. Experimental results show that our proposed KNN search accelerator achieves 9.1 times faster than state-of-the-art KNN implementations on FPGA. This work is published in ICECS 2023.
 tags:
   - FPGA
 date: '2023-10-01T00:00:00Z'
